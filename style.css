@@ -1,0 +1,147 @@
+  
+    body {
+        font-family: "メイリオ" ;
+        color: #000000;
+        margin: 0;
+        text-align: center;
+      }
+    
+      header{
+        background-color: #bfd3c1;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+      }
+      header ul{
+        margin: 0px;
+      }
+      header ul li {
+        display: inline-block;
+        padding: 0 20px;
+      }
+        
+    header ul li a {
+        color: #7f95d1;
+        font-size: 20px;
+        text-decoration: none;
+      }
+      header img {
+        height: 30px;
+      }
+      footer{
+        background-color: #e7edff;
+        color: #ffebe7;
+        padding: 10px;
+      }
+        
+    .top {
+        background-image: url(image/banner.jpg);
+        background-size: cover;
+        padding: 200px 0;
+      }
+      .top h1 {
+        font-size: 70px;
+        letter-spacing: 5px;
+      }
+      .about{
+        background-color: #e7ffff;
+        padding: 100px;
+        
+      }
+      
+    h2{
+        margin: 0;
+      }
+      hr{
+        margin-bottom: 50px;
+        height: 5px;
+        width: 100px;
+        border: none;
+      }
+
+        
+    .blue-line{
+        background-color: #7BC3D1;
+      }
+      .about table{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: left;
+        border: double 5px #4ec4d3;
+      }
+      .skills{
+        background-color: #bfd3c1;
+        padding: 100px;
+      }
+      .box{
+        background: #ffebe7;
+        border-radius: 10px;
+        display: inline-block;
+        padding: 20px;
+        margin: 20px;
+        width: 30%;
+      }
+      
+      .box img{
+        display: block;
+        margin: 50px auto;
+        width: 80%;
+      }
+      .card {
+        background: #FFFFFF;
+        border-radius: 5px;
+        display: inline-block;
+        margin: 20px;
+        width: 25%;
+      }
+      .card img {
+        border-radius: 5px 5px 0 0;
+        width: 100%;
+      }
+      .anime_test {
+        display: block; /* ブロック要素にする */
+        margin: 0 auto; /* 要素中央揃え */
+        position: relative; /* 位置指定 */
+        animation: anime1 1s ease; /* アニメーション指定 */
+    }
+    .box11{
+      padding: 0.5em 1em;
+      margin: 2em 0;
+      color: #5d627b;
+      background: white;
+      border-top: solid 5px #5d627b;
+      box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+  }
+  .box11 p {
+      margin: 0; 
+      padding: 0;
+  }
+  .box18{
+    margin:2em 0;
+    position: relative;
+    padding: 0.25em 1em;
+    border: solid 2px #ffcb8a;
+    border-radius: 3px 0 3px 0;
+}
+.box18:before,.box18:after
+{
+    content: '';
+    position: absolute;
+    width:10px;
+    height: 10px;
+    border: solid 2px #ffcb8a;
+    border-radius: 50%;
+}
+.box18:after {
+    top:-12px;
+    left:-12px;
+}
+.box18:before {
+    bottom:-12px;
+    right:-12px;
+}
+.box18 p {
+    margin: 0; 
+    padding: 0;
+}
+     
