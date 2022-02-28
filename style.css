@@ -111,46 +111,4 @@
       background: white;
       border-top: solid 5px #5d627b;
       box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
-  }
-  .box11 p {
-      margin: 0; 
-      padding: 0;
-  }
-  .box18{
-    margin:2em 0;
-    position: relative;
-    padding: 0.25em 1em;
-    border: solid 2px #ffcb8a;
-    border-radius: 3px 0 3px 0;
-}
-.box18:before,.box18:after
-{
-    content: '';
-    position: absolute;
-    width:10px;
-    height: 10px;
-    border: solid 2px #ffcb8a;
-    border-radius: 50%;
-}
-.box18:after {
-    top:-12px;
-    left:-12px;
-}
-.box18:before {
-    bottom:-12px;
-    right:-12px;
-}
-.box18 p {
-    margin: 0; 
-    padding: 0;
-}
-.sample_h_10{
-  font-size: 0.5em;/* フォントサイズ */
-  font-weight: bold;/* フォント太さ */
-  padding-left: .5em;
-  padding-top: .3em;
-  padding-bottom: .3em;
-  margin-bottom: 2em;
-  border-left: 5px solid #ffffff;/* 線 */
-  color: #138076;/* フォント色 */
-  }
+　
