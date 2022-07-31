@@ -1,7 +1,1 @@
-http://kedamaneko.com/
-git checkout --orphan gh-pages
-rm * -R
-echo "blog.atusy.net" >> CNAME
-git add CNAME
-git commit -m "CNAME for 301 redirect"
-git push origin gh-pages
+kedamaneko.com
