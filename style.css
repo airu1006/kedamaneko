@@ -1,4 +1,4 @@
-  body {
+ body {
   font-family: "メイリオ";
   color: #000000;
   margin: 0;
@@ -141,7 +141,8 @@ hr {
   border-radius: 3px 0 3px 0;
 }
 
-.box18:before, .box18:after {
+.box18:before,
+.box18:after {
   content: '';
   position: absolute;
   width: 10px;
@@ -163,15 +164,18 @@ hr {
 .box18 p {
   margin: 0;
   padding: 0;
-}  
-.box17{
-  margin:2em 0;
+}
+
+.box17 {
+  margin: 2em 0;
   position: relative;
   padding: 0.5em 1.5em;
   border-top: solid 2px black;
   border-bottom: solid 2px black;
 }
-.box17:before, .box17:after{
+
+.box17:before,
+.box17:after {
   content: '';
   position: absolute;
   top: -10px;
@@ -180,25 +184,38 @@ hr {
   height: calc(100% + 20px);
   background-color: black;
 }
-.box17:before {left: 10px;}
-.box17:after {right: 10px;}
+
+.box17:before {
+  left: 10px;
+}
+
+.box17:after {
+  right: 10px;
+}
+
 .box17 p {
-  margin: 0; 
+  margin: 0;
   padding: 0;
 }
+
 .box2 {
   padding: 0.5em 1em;
   margin: 2em 0;
   font-weight: bold;
-  color: #6091d3;/*文字色*/
+  color: #6091d3;
+  /*文字色*/
   background: #FFF;
-  border: solid 3px #6091d3;/*線*/
-  border-radius: 10px;/*角の丸み*/
+  border: solid 3px #6091d3;
+  /*線*/
+  border-radius: 10px;
+  /*角の丸み*/
 }
+
 .box2 p {
-  margin: 0; 
+  margin: 0;
   padding: 0;
 }
+
 .box26 {
   position: relative;
   margin: 2em 0;
@@ -206,6 +223,7 @@ hr {
   border: solid 3px #95ccff;
   border-radius: 8px;
 }
+
 .box26 .box-title {
   position: absolute;
   display: inline-block;
@@ -218,7 +236,8 @@ hr {
   color: #95ccff;
   font-weight: bold;
 }
+
 .box26 p {
-  margin: 0; 
+  margin: 0;
   padding: 0;
 }
